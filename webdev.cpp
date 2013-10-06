@@ -48,7 +48,7 @@ void populate_example(int no_functions_map)
 int main(int argc, char *argv[])
 {
 	string function;
-	int integer_used, no_functions_map, nr;
+	int integer_used, no_functions_map;
 
 	if(argc < 3) {
 		cout << "./webdev 'integer used' 'number of used functions_map'" << endl;
