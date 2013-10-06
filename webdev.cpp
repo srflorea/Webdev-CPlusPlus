@@ -13,6 +13,8 @@ using namespace std;
 vector<string> example;
 map<string, func_type> functions_map;
 
+/*Function that populates the dictionary with all the available functions.
+*/
 void populate_map()
 {
 	functions_map["add_one"] = add_one;
@@ -32,6 +34,8 @@ void populate_map()
 	functions_map["subtract_five"] = subtract_five;
 }
 
+/*Function that populates the list with names of the functions that will be used
+*/
 void populate_example(int no_functions_map)
 {
 	int k = 0;
