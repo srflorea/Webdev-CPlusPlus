@@ -1,14 +1,14 @@
 This small project implements the problem of applying a list of
-functions on an integer given as parameter.
+functions on an integer given as parameters	.
 The functions are located in "examples.cpp" file.
 The idea of my implementation is to create a dictionary with the key
 being the string that represents the name of a function, and the value
 being the function that have to be applied on the integer.
-The program take as command line parameters the integer that would be
+The program takes as command line parameters the integer that would be
 used and the number of functions that will be applied. At the beggining
 of the program all the functions will be added in the dictionary and 
 the number of functions that the user wants will be added in a vector 
-of strings with the names of the functions. 
+of strings the will contain the names of the functions. 
 Iterating through this vector, will be applied the right functions taken
 from the dictionary.
 The implementation of the problem is in "webdev.cpp" file.
